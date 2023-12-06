@@ -40,7 +40,7 @@ namespace lab_j2._2
         int GRAD_D = 0;
         int GRAD_D2 = 0;
         int GRAD_F = 0;
-
+        // comment
         private void button1_Click(object sender, EventArgs e)
         {
             //get input data from textbox
