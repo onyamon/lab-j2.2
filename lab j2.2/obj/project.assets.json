@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OOP\\lab j2.2\\lab j2.2\\lab j2.2.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\lab j2.2\\lab j2.2\\lab j2.2.csproj",
       "projectName": "lab j2.2",
-      "projectPath": "D:\\OOP\\lab j2.2\\lab j2.2\\lab j2.2.csproj",
+      "projectPath": "C:\\Users\\USER\\Documents\\lab j2.2\\lab j2.2\\lab j2.2.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\OOP\\lab j2.2\\lab j2.2\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\lab j2.2\\lab j2.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

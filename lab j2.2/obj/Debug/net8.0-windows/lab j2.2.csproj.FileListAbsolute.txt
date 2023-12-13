@@ -14,20 +14,3 @@ C:\Users\USER\Documents\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\refint\lab j2
 C:\Users\USER\Documents\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.pdb
 C:\Users\USER\Documents\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.genruntimeconfig.cache
 C:\Users\USER\Documents\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\ref\lab j2.2.dll
-D:\OOP\lab j2.2\lab j2.2\bin\Debug\net8.0-windows\lab j2.2.exe
-D:\OOP\lab j2.2\lab j2.2\bin\Debug\net8.0-windows\lab j2.2.deps.json
-D:\OOP\lab j2.2\lab j2.2\bin\Debug\net8.0-windows\lab j2.2.runtimeconfig.json
-D:\OOP\lab j2.2\lab j2.2\bin\Debug\net8.0-windows\lab j2.2.dll
-D:\OOP\lab j2.2\lab j2.2\bin\Debug\net8.0-windows\lab j2.2.pdb
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab_j2._2.Form1.resources
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.csproj.GenerateResource.cache
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.GeneratedMSBuildEditorConfig.editorconfig
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.AssemblyInfoInputs.cache
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.AssemblyInfo.cs
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.csproj.CoreCompileInputs.cache
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.sourcelink.json
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.dll
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\refint\lab j2.2.dll
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.pdb
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\lab j2.2.genruntimeconfig.cache
-D:\OOP\lab j2.2\lab j2.2\obj\Debug\net8.0-windows\ref\lab j2.2.dll

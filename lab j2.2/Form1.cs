@@ -1,5 +1,3 @@
-using System.Data;
-
 namespace lab_j2._2
 {
     public partial class Form1 : Form
@@ -23,12 +21,11 @@ namespace lab_j2._2
         {
 
         }
-        //int arrayIndex = 0;
-        //string[] arrID = new string[1000];
-        //string[] arrName = new string[1000];
-        //int[] arrScore = new int[10];
+        int arrayIndex = 0;
+        string[] arrID = new string[1000];
+        string[] arrName = new string[1000];
+        int[] arrScore = new int[10];
 
-        List<student> Liststudents = new List<student>();
         string inputID;
         string inputNAME;
         string inputScore;
@@ -43,70 +40,29 @@ namespace lab_j2._2
         int GRAD_D = 0;
         int GRAD_D2 = 0;
         int GRAD_F = 0;
-        // comment
+
         private void button1_Click(object sender, EventArgs e)
         {
-
             //get input data from textbox
             inputID = tbinputID.Text;
             inputNAME = tbinputNAME.Text;
             inputScore = tbinputScore.Text;
             //create array สร้างเพื่อเก็บข้อมูลไว้
 
-            student student = new student();
-            student.ID = inputID;
-
-            student.name = inputNAME;
-
-            student.Score = double.Parse(inputScore);//เปลี่ยนชนิดข้อมูล
-            Liststudents.Add(student);
-
             //add data to array
-            //arrID[arrayIndex] = inputID;
-            // arrName[arrayIndex] = inputNAME;
-            // arrScore[arrayIndex] = int.Parse(inputScore);
+            arrID[arrayIndex] = inputID;
+            arrName[arrayIndex] = inputNAME;
+            arrScore[arrayIndex] = int.Parse(inputScore);
             //add data to array
-            //arrayIndex++;
+            arrayIndex++;
 
             // array = [1 ,2 ,3 , 4 ]
             //การหาค่ามากสุด
-            /* max_score = arrScore.Max();
-             max_index = arrScore.ToList().IndexOf(max_score);*/
-            double max = 0;
-            foreach (student item in Liststudents)
-            {
-                if (item.Score > max) 
-                {
-                    tbIDScore1.Text = item.ID;
-                    tbNameScore1.Text = item.name;
-                    tbSCORE1.Text = item.Score.ToString();
+            max_score = arrScore.Max();
+            max_index = arrScore.ToList().IndexOf(max_score);
 
-                    max = item.Score;
-
-                        
-                }
-            }
-            double min = max;
-            foreach (var item in Liststudents)
-            {
-                if(item.Score < min)
-                {
-                    tbIDScore2.Text = item.ID;
-                    tbNameScore2.Text = item.name;
-                    tbSCORE2.Text = item.Score.ToString();
-                }
-            }
-            double sum = 0;
-            int count = 0;
-            foreach (student item in Liststudents)
-            {
-                sum += item.Score;
-                count++;
-            }
-                tbAVER.Text = (sum/count).ToString();
-
-            //tbSCORE1.Text = arrScore[max_index].ToString();
-            /*tbIDScore1.Text = arrID[max_index];
+            tbSCORE1.Text = arrScore[max_index].ToString();
+            tbIDScore1.Text = arrID[max_index];
             tbNameScore1.Text = arrName[max_index];
 
 
@@ -139,7 +95,7 @@ namespace lab_j2._2
 
             }
 
-            tbAVER.Text = (sum / arrayIndex).ToString();*/
+            tbAVER.Text = (sum / arrayIndex).ToString();
 
             int SCORE = int.Parse(tbinputScore.Text);
             if (SCORE >= 80 && SCORE <= 100)
@@ -200,13 +156,8 @@ namespace lab_j2._2
             }
 
             double GRA = ((GRAD_A * 4.00) + (GRAD_B * 3.50) + (GRAD_B2 * 3.00) + (GRAD_C * 2.50) + (GRAD_C2 * 2.00) + (GRAD_D * 1.50) + (GRAD_D2 * 1.00)) /
-                ((GRAD_A) + (GRAD_B) + (GRAD_B2) + (GRAD_C) + (GRAD_C2) + (GRAD_D) + (GRAD_D2) + (GRAD_F));
+                ((GRAD_A) + (GRAD_B) + (GRAD_B2) + (GRAD_C) + (GRAD_C2) + (GRAD_D) + (GRAD_D2));
             javer.Text = String.Format("{0:F2}", GRA);
-        }
-
-        private void tbIDScore1_TextChanged(object sender, EventArgs e)
-        {
-           
         }
     }
 }
