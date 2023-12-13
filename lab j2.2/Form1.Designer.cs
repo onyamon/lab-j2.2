@@ -254,6 +254,7 @@
             tbIDScore1.Name = "tbIDScore1";
             tbIDScore1.Size = new Size(125, 27);
             tbIDScore1.TabIndex = 26;
+            tbIDScore1.TextChanged += tbIDScore1_TextChanged;
             // 
             // tbNameScore1
             // 
