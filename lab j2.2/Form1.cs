@@ -156,7 +156,7 @@ namespace lab_j2._2
             }
 
             double GRA = ((GRAD_A * 4.00) + (GRAD_B * 3.50) + (GRAD_B2 * 3.00) + (GRAD_C * 2.50) + (GRAD_C2 * 2.00) + (GRAD_D * 1.50) + (GRAD_D2 * 1.00)) /
-                ((GRAD_A) + (GRAD_B) + (GRAD_B2) + (GRAD_C) + (GRAD_C2) + (GRAD_D) + (GRAD_D2));
+                ((GRAD_A) + (GRAD_B) + (GRAD_B2) + (GRAD_C) + (GRAD_C2) + (GRAD_D) + (GRAD_D2) + (GRAD_F));
             javer.Text = String.Format("{0:F2}", GRA);
         }
     }
